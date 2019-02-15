@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: nine-nacos-discovery-server
+
+server:
+  port: 10001
