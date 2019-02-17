@@ -1,4 +1,4 @@
-package com.nine.cloud.nine.nacos.discoveryserver;
+package com.nine.cloud.nacos.configserver;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
