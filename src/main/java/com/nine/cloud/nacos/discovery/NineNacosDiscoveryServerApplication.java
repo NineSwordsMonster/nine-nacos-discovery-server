@@ -1,11 +1,7 @@
-package com.nine.cloud.nacos.configserver;
+package com.nine.cloud.nacos.discovery;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Create by Jarvis.wang on Jarvis's device
