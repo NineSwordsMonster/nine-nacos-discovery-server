@@ -15,14 +15,4 @@ public class NineNacosDiscoveryServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(NineNacosDiscoveryServerApplication.class, args);
     }
-
-    @Slf4j
-    @RestController
-    static class TestController {
-        @GetMapping("/hello")
-        public String hello(@RequestParam String name) {
-            log.info("invoked name = " + name);
-            return "hello " + name;
-        }
-    }
 }
