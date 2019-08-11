@@ -5,8 +5,3 @@ spring:
   application:
     name: nine-nacos-discovery-server
 
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 192.168.41.112:8848
-
